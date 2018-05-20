@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('tournament-bracket-frontend App', () => {
+describe('boilerplate-angular App', () => {
   let page: AppPage;
 
   beforeEach(() => {
