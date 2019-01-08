@@ -11,6 +11,7 @@ import {
     MatDialogModule,
     MatExpansionModule,
     MatGridListModule,
+    MatIconModule,
     MatInputModule,
     MatListModule,
     MatMenuModule,
@@ -33,14 +34,11 @@ import {
     MatTooltipModule
 } from '@angular/material';
 import {CdkTableModule} from '@angular/cdk/table';
-import {LayoutModule} from "@angular/cdk/layout";
-import {MatIconModule} from "@angular/material/icon";
 
 @NgModule({
     imports: [CommonModule],
     exports: [
         CdkTableModule,
-        LayoutModule,
         MatAutocompleteModule,
         MatButtonModule,
         MatButtonToggleModule,

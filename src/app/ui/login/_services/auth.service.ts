@@ -15,7 +15,7 @@ const LOGIN_API = AUTH_API_BASE_URL + 'login';
 @Injectable()
 export class AuthService {
 
-    private handleError: HandleError;
+    private readonly handleError: HandleError;
 
     constructor(private http: HttpClient,
                 private httpErrorHandler: HttpErrorHandler) {
